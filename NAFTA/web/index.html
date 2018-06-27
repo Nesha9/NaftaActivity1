@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+<!DOCTYPE html>
+<html>
+<style>
+    body {font-size: 2em;}
+    input[type="text"]{font-size: .9em;}
+    input[type=submit] {
+        border: 2px solid black; background: #E5E4E2;
+        font-size: .5em; font-weight: bold; color: black;
+        padding: .8em 2em;
+        margin-top: .4em;
+    }
+    #output {font-size: .9em; margin-top: .4em;}
+    .titleStyle {font-size: 2.3em;}
+</style>
+<body>
+
+
+<select id="CurFrom">
+    <option value="USD">USD</option>
+    <option value="CAD">CAD</option>
+    <option value="MXN">MXN</option>
+</select>
+
+
+<select id="CurTo">
+    <option value="USD">USD</option>
+    <option value="CAD">CAD</option>
+    <option value="MXN">MXN</option>
+</select>
+
+<input type ="text" id ="num1"><br>
+<!-- <input type ="text" id ="num2"><br>-->
+<input type ="submit" value ="Convert!" id ="button">
+<br><br>
+<object border="5"> <span id ="sum">Result</span> </object><br>
+
+<!--<textarea rows="20" cols="50" id="output">Program Output</textarea>
+<div id="divBox"></div>
+-->
+<script type="application/dart" src="main.dart"></script>
+
+<script src="main.dart.js"></script> <!--converted js file-->
+</body>
+</html>
